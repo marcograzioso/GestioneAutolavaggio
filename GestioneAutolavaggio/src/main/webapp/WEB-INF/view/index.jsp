@@ -14,5 +14,12 @@
 		targa: <input type="text" name="targa" required><br>
 		<input type="submit" value="inserisci veicolo">
 	</form>
+	
+	
+	<form action="/insert_veicolo" method="post">
+		numero telaio:<input type="text" name="nTelaio" required /> <br>
+		targa: <input type="text" name="targa" required><br>
+		<input type="submit" value="inserisci veicolo">
+	</form>
 </body>
 </html>
